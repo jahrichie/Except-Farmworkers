@@ -1,17 +1,14 @@
 <div class="sky">
    <div id="nav" class="clearfix">
     <ul>
-      <li><i class="icon-lightbulb yella"></i> Learn</li>
-      <li><i class="icon-medkit"> </i> Get Involved</li>
-      <li><i class="icon-medkit"> </i> Partners</li>
-      <li><i class=" icon-phone"></i> Contact</li>
+      <li><i class="icon-lightbulb"></i> <a href="#learn" class="yella">Learn</a></li>
+      <li><i class="icon-medkit"> </i> <a href="#get-involved">Get Involved</a></li>
+      <li><i class="icon-medkit"> </i> <a href="#partners">Partners</a></li>
+      <li><i class=" icon-phone"></i> <a href="#contact">Contact</a></li>
     </ul>
-
    </div><!-- nav  -->
 </div><!--  sky  -->
-
 <div id="welcome-trees">
-
 <div data-behavior="fadein">
    <div class="twitter-wrapper">
       <H1 class="cursive">What's being said</H1>
@@ -21,12 +18,12 @@
 
     <div class="vimeo-wrapper">
       <H1  class="cursive">Our Fight For Equality</H1>
-      <%= image_tag("qtiptmp.png") %>
-      
+      <%= link_to image_tag("qtiptmp.png"), root_path, :class => 'vimeoHover' %>
     </div><!-- vimeo wrapper  -->
   </div><!-- fadein data-beh   -->
 </div><!-- welcome-trees  -->
 
-<div id="welcome-grass">
-
-</div><!-- welcome-grass  -->
+<div class="welcome-grass" id="learn">light green</div><!-- welcome-grass  -->
+<div class="green">green</div><!-- green  -->
+<div class="brown">brown</div><!-- brown  -->
+<div class="dark-brown">dark</div><!-- brown  -->

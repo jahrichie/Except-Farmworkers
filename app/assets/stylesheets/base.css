@@ -5,16 +5,17 @@ sodigital Development
 sodigit.al
 
 PALLET:
-first yellow greenish #BBBD94
 sky #E8F0E8
-
-
+first green #BBBD94
+green #81A56D
+brownlightest #A27943
+dark brown #563729
 
 */
 
 body {min-height:2000px;}
 
-.cursive {text-transform:uppercase;text-align:center;font-family: 'Roboto', sans-serif;text-shadow: 1px 1px 1px #999, 1px 1px 1px #888; }
+.cursive {border:1px solid #000;border-radius:4px;color:#FFF;background:rgba(0,0,0,.8);font-size:14px;text-transform:uppercase;text-align:center;font-family: 'Roboto', sans-serif;}
 #nav{
   background:#000;
   width:100%;
@@ -40,7 +41,7 @@ body {min-height:2000px;}
   list-style:none;
 }
 #nav li:last-child {border:0;}
-
+#nav a {color:#FFF;}
 .sky {
   height:40px;
   background:#E8F0E8;   
@@ -60,7 +61,7 @@ body {min-height:2000px;}
 
 }
 
-#welcome-grass {
+.welcome-grass {
   background:#BBBD94;
   min-height:600px;
 }
@@ -76,8 +77,22 @@ body {min-height:2000px;}
 
 
 .twitter-wrapper {
-
 padding-top:55px;
 margin:25px;
 }
-.yella{color:yellow;}
+a.yella{color:yellow !important;}
+
+a.vimeoHover:hover {
+  zoom: 1;
+  filter: alpha(opacity=90);
+  opacity: 0.9;
+}
+
+.green { background:#81A56D;height:600px;}
+.brown {background:#A27943;height:600px}
+.dark-brown{background:#563729;height:600px}
+
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-size:22px;font-size;}

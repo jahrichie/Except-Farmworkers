@@ -40,7 +40,7 @@ GEM
     coffee-script-source (1.6.1)
     daemons (1.1.9)
     erubis (2.7.0)
-    eventmachine (1.0.1)
+    eventmachine (1.0.3)
     excon (0.16.10)
     execjs (1.4.0)
       multi_json (~> 1.0)
