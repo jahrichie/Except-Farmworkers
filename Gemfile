@@ -37,5 +37,10 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
+
+
+#RICH's
 gem 'thin'
+gem "font-awesome-rails"
+gem "heroku"
 
