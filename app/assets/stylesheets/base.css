@@ -13,17 +13,57 @@ dark brown #563729
 
 */
 
-body {min-height:2000px;}
+body {}
 
-.cursive {border:1px solid #000;border-radius:4px;color:#FFF;background:rgba(0,0,0,.8);font-size:14px;text-transform:uppercase;text-align:center;font-family: 'Roboto', sans-serif;}
+#subsribe-monkey {
+  position: fixed;
+  bottom:0;
+  right:0;
+  height:60px;
+  width:600px;
+  border-top:1px solid rgba(200,200,200,.5);
+  border-left:1px solid rgba(200,200,200,.5);
+}
+#subsribe-monkey .closeme {
+  color:#973247;
+  font-size:12px;
+  position:absolute;
+  top:2px;
+  left:4px;
+}
+#subsribe-monkey .closeme  a {
+  position:relative;
+  z-index:99;
+  font-size:14px;
+  color:#973247;  
+}
+#subsribe-monkey .closeme  a:hover 
+{color:#000;}
+#mc_embed_signup {
+  padding-left:12px;
+}
+
+.mailchimpfloat{
+
+background:#81A56D !important;
+margin-top: -45px !important;
+margin-right: 20px !important;
+float:right;
+box-shadow: 0 0 3px rgba(0,0,0,0.9);
+}
+.logo {position:absolute;top:10px;left:40px;}
+.logo h1 {font-size:16px;display: inline}
+.logo img {width:30px;height:30px;}
+.logo a:hover,#nav a:hover {text-decoration:none;}
+
+.cursive {display:none;border:1px solid #000;border-radius:4px;color:#000;background:rgba(200,200,200,.5);font-size:14px;text-transform:uppercase;text-align:center;font-family: 'Roboto', sans-serif;}
 #nav{
-  background:#000;
   width:100%;
   position:fixed;
   z-index:10;
   min-height:50px;
   box-shadow: 0 0 3px rgba(0,0,0,0.9);
-  background:rgba(0,0,0,0.9);
+  background:#973247;
   color:#FFF;
   text-transform: uppercase;
   font-size:14px;
@@ -42,6 +82,7 @@ body {min-height:2000px;}
 }
 #nav li:last-child {border:0;}
 #nav a {color:#FFF;}
+#nav a:hover {color:#000;}
 .sky {
   height:40px;
   background:#E8F0E8;   
@@ -93,6 +134,33 @@ a.vimeoHover:hover {
 .dark-brown{background:#563729;height:600px}
 
 
-[class^="icon-"],
+/*GLOBALS CRAY CRAY */
+
+/*[class^="icon-"],
 [class*=" icon-"] {
-  font-size:22px;font-size;}
+  font-size:22px;font-size;
+}
+*/
+
+
+a:hover {
+  text-decoration:none !important;
+  -webkit-transition: color  200ms ease-in;
+  -o-transition:color  200ms ease-in;
+/*   color: #000; */ 
+}  
+
+
+/*.nav-stacked {
+  background:#973247; 
+  margin-left:100px;
+} 
+.nav-stacked a {
+  border:;
+}
+*/
+/*.nav-tabs.nav-stacked {background:#FFF;border:1px solid # !important;overflow:hidden;}*/
+.nav-tabs.nav-stacked  > li > a {
+    background:#FFF;
+    border: 1px solid #CCC !important;
+}
