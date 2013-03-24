@@ -147,20 +147,17 @@ a:hover {
   text-decoration:none !important;
   -webkit-transition: color  200ms ease-in;
   -o-transition:color  200ms ease-in;
-/*   color: #000; */ 
 }  
 
 
-/*.nav-stacked {
-  background:#973247; 
-  margin-left:100px;
-} 
-.nav-stacked a {
-  border:;
-}
-*/
-/*.nav-tabs.nav-stacked {background:#FFF;border:1px solid # !important;overflow:hidden;}*/
 .nav-tabs.nav-stacked  > li > a {
     background:#FFF;
     border: 1px solid #CCC !important;
+}
+.nav-stacked {width: 200px;margin-left: 100px;padding-top: 120px;}
+.getInvolvedLeft {float:left;width:100px;}
+.getInvolvedright {margin: 120px 220px;float:left;width:400px;}
+
+a.currentCrossLink {
+  color:black;  
 }

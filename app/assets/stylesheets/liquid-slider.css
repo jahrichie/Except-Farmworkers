@@ -1,3 +1,5 @@
+
+
 /***********************************************************************
 *
 *  Liquid Slider
@@ -67,7 +69,7 @@
 *******************************************************/
 .liquid-slider-wrapper .liquid-slider {
   background: #f2f2f2;
-  width: 1030px;
+  width: 700px;
   /* Do not edit below this line */
   float: left;
   overflow: hidden;
@@ -93,7 +95,7 @@
 * for the entire slider.
 *******************************************************/
 .liquid-slider-wrapper .liquid-slider .panel {  
-  width: 1030px;
+  width: 700px;
   /* Do not edit below this line */
   display: block;
   float: left;
