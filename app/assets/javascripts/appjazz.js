@@ -1,8 +1,8 @@
  $(function(){
 
     $("a.clickthis").click(function() {
-         var scrollElement = $(this).attr("href");
-         $.scrollTo(scrollElement,1000); 
+         var elementsId = $(this).attr("href");
+         $.scrollTo(elementsId,1000,{offset:-75}); 
         //alert("this far!");
         //$(this).attr("href")
     });
