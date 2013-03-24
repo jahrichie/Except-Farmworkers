@@ -12,6 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= waypoints
-//= require scrollTo
-//= require_tree .
+//= require jquery.cookie
+//= require bootstrap
+//= require jquery.scrollTo
+//= require appjazz
+//= require jquery.liquid-slider
+//= require jquery.easing.1.3
+//= require jquery.touchSwipe.min

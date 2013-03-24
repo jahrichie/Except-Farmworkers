@@ -1,11 +1,22 @@
  $(function(){
 
+    //get the href of the element and 
+    //scroll to coresponding div offset 75px for #nav 
     $("a.clickthis").click(function() {
          var elementsId = $(this).attr("href");
          $.scrollTo(elementsId,1000,{offset:-75}); 
-        //alert("this far!");
-        //$(this).attr("href")
     });
+
+    //email slide off screen and cookie to not show
+    $('[data-behavior~=slideUp]').click(function() {
+        $("#subsribe-monkey").slideUp();
+        $.cookie('hide_subscribe', 'true', { expires: 7 });   
+    });    
+
+    //hide subscribe if cookie is set
+    if($.cookie("hide_subscribe") == "true") {
+        $('#subsribe-monkey').hide();
+    }
 
     // $('[data-behavior~=slideup]').hide();
     // $('[data-behavior~=slideup]').delay(1000).slideUp(2000);
@@ -14,6 +25,8 @@
     $('[data-behavior~=fadein]').hide();
     $('[data-behavior~=fadein]').delay(1000).fadeIn(2000);
 
+
+    
 
     // $('#nav').scrollspy();
     // $('[data-spy="scroll"]').each(function () {
@@ -26,6 +39,7 @@
      //  $(".yella").next().addClass("yella")
      //  //$("#nav li a").removeClass("yella");
 
+   $('#slider-id').liquidSlider();
 
 });//end  function
 
