@@ -39,7 +39,23 @@
      //  $(".yella").next().addClass("yella")
      //  //$("#nav li a").removeClass("yella");
 
-   $('#slider-id').liquidSlider();
+          //$('#slider-id').liquidSlider();
+          $('#get-involved-slider').delay(5000).liquidSlider({
+            responsive: false,
+            autoSlide:false,
+            autoHeight:true,
+            preloader: true,
+            hashLinking: true,
+            hashNames: true,
+            hashCrossLinks: true,
+            dynamicTabs: false,
+            crossLinks: true,
+            keyboardNavigation: true,
+            leftKey: 39,
+            rightKey: 37,
+
+          });
+
 
 });//end  function
 
