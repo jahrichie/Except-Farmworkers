@@ -1139,7 +1139,7 @@ if (typeof Object.create !== 'function') {
 		hoverArrows: true,
 		hoverArrowDuration: 250,
 
-		dynamicTabs: true,
+		dynamicTabs: false,
 		dynamicTabsAlign: "left",
 		dynamicTabsPosition: "top",
 		firstPanelToLoad: 1,

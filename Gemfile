@@ -12,6 +12,7 @@ group :development do
   gem 'sqlite3'
 end
 
+gem 'mail_form'
 #gem "jquery-scrollto-rails"
 
 # Gems used only for assets and not required

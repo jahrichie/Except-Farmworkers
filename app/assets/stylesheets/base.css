@@ -14,7 +14,8 @@ dark brown #563729
 */
 
 body {}
-
+#learn-carousel {width:400px;margin: 0 auto;padding-top:50px;}
+#learn-carousel blockquote {margin-top:40px;width:600px;}
 #subsribe-monkey {
   position: fixed;
   bottom:0;
@@ -83,6 +84,7 @@ box-shadow: 0 0 3px rgba(0,0,0,0.9);
 #nav li:last-child {border:0;}
 #nav a {color:#FFF;}
 #nav a:hover {color:#000;}
+
 .sky {
   height:40px;
   background:#E8F0E8;   
@@ -91,14 +93,15 @@ box-shadow: 0 0 3px rgba(0,0,0,0.9);
 }
 
 #welcome-trees { 
-  background:#BBBD94 url(/assets/heros/hero-rooted.png) no-repeat center center; 
+  background:#BBBD94 url(/assets/heros/hero-rooted-apples-oil.png) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   min-height:600px;
   margin-bottom:-30px;
-  margin-top:-30px;
+
+  margin-top: 12px;
 
 }
 
@@ -123,11 +126,6 @@ margin:25px;
 }
 a.yella{color:yellow !important;}
 
-a.vimeoHover:hover {
-  zoom: 1;
-  filter: alpha(opacity=90);
-  opacity: 0.9;
-}
 
 .green { background:#81A56D;height:600px;}
 .brown {background:#A27943;height:600px}
@@ -154,10 +152,45 @@ a:hover {
     background:#FFF;
     border: 1px solid #CCC !important;
 }
-.nav-stacked {width: 200px;margin-left: 100px;padding-top: 120px;}
+.nav-stacked {width:200px;margin-left: 100px !important;padding-top: 50px !important;}
 .getInvolvedLeft {float:left;width:100px;}
-.getInvolvedright {margin: 120px 220px;float:left;width:400px;}
+.getInvolvedright {margin: 50px 220px;float:left;width:400px;}
+
 
 a.currentCrossLink {
   color:black;  
 }
+#get-involved-slider {
+  border-radius:4px;  
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.whopickedyourapple {
+  padding-top:50px;
+  /*background:#BBBD94 url(/assets/apple-notype.png) no-repeat;
+
+  background-image-size:100px 100px;*/
+}
+
+.whopickedyourapple b {
+  position: absolute;
+  margin: 159px 0 0 48px;
+}
+
+.shareUs {margin-left:50px;margin-left: 73px !important;}
+
+.shareUs i {
+  font-size:26px;  
+}
+
+#getinvoled {
+  margin-top:-20px;  
+}
+
+.partnersMap {
+  border:2px solid #BBBD94;
+  margin: 50px 0 0 200px; 
+}
+
+
+margin-top: 62px;

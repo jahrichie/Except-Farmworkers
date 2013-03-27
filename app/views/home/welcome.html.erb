@@ -10,12 +10,12 @@
 <div id="welcome-trees">
 <div data-behavior="fadein">
    <div class="twitter-wrapper">
-      <H1 class="cursive">What's being said</H1>
+      <h1 class="cursive">What's being said</h1>
       <%= render 'twitterwidget' %>
     </div><!-- twitter-wrapper  -->
     <div class="vimeo-wrapper">
       <H1  class="cursive">Our Fight For Equality</H1>
-      <%= link_to image_tag("qtiptmp.png"), root_path, :class => 'vimeoHover' %>
+        <iframe width="560" height="415" src="http://www.youtube.com/embed/6pE1tEIJhnY" frameborder="0" allowfullscreen style="border-radius:4px;"></iframe>
     </div><!-- vimeo wrapper  -->
   </div><!-- fadein data-beh   -->
 </div><!-- welcome-trees  -->
@@ -24,9 +24,21 @@
 <!-- 
 PAGES
  -->
-<div class="welcome-grass thing" id="learn">light green learn</div><!-- welcome-grass  -->
+<div class="welcome-grass" id="learn">
+  <div id="learn-carousel">
+    <%= render 'learncarousel' %>
+  </div>
+  <blockquote>
+  Pitchfork aesthetic brooklyn hella actually biodiesel. Sriracha vegan selvage pinterest, four loko narwhal hoodie next level. Plaid letterpress cray, 3 wolf moon forage biodiesel lomo selfies high life chambray. Small batch vice mixtape tattooed hella, post-ironic pickled direct trade thundercats mumblecore carles retro. Semiotics cred keytar, PBR swag pour-over williamsburg cardigan biodiesel VHS skateboard irony beard. Blog locavore direct trade jean shorts mixtape, kale chips 90's occupy vegan godard synth. Four loko intelligentsia cardigan, occupy banjo farm-to-table meh.
+</blockquote>
+
+</div><!-- welcome-grass  -->
 <div class="green" id="getinvoled">
   <%= render 'getinvolved' %>
 </div><!-- green  -->
-<div class="brown" id="partners"> partners brown</div><!-- partners  -->
+<div class="brown" id="partners"> 
+<iframe class="partnersMap" width="800" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=109+W+17th+St++New+York,+NY+10011&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=51.355924,116.455078&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=109+W+17th+St,+New+York,+10011&amp;ll=40.739603,-73.99596&amp;spn=0.012112,0.028431&amp;z=14&amp;output=embed"></iframe><br />
+
+</div><!-- partners  -->
 <div class="dark-brown" id="contact"> </div><!--  contact  -->
+
